@@ -1365,9 +1365,9 @@ void glGetTexParameterPointervAPPLE(GLenum target, GLenum pname, GLvoid **params
 void glVertexArrayRangeAPPLE(GLsizei length, const GLvoid *pointer);
 void glFlushVertexArrayRangeAPPLE(GLsizei length, const GLvoid *pointer);
 void glVertexArrayParameteriAPPLE(GLenum pname, GLint param);
-void glBindVertexArrayAPPLE(GLuint id);
+void glBindVertexArray(GLuint id);
 void glDeleteVertexArraysAPPLE(GLsizei n, const GLuint *ids);
-void glGenVertexArraysAPPLE(GLsizei n, GLuint *ids);
+void glGenVertexArrays(GLsizei n, GLuint *ids);
 GLboolean glIsVertexArrayAPPLE(GLuint id);
 void glGenFencesAPPLE(GLsizei n, GLuint *fences);
 void glDeleteFencesAPPLE(GLsizei n, const GLuint *fences);
